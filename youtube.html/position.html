@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <title>position practice</title>
+
+
+    <style>
+
+        body{
+            height: 1000px;
+            padding-left: 80px;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right:0;
+
+            z-index: 100;
+
+            height: 50px;
+        }
+
+
+
+        .side-bar{
+            background-color: green;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 72px;
+            top: 50px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header" style="background-color: black;
+    color: white;"> header</div>
+    <div style="width: 200px;
+    height: 200px;
+    margin-top: 60PX;
+    background-color: lightblue ;">1</div>
+    <div style="width: 200px;
+    height: 200px;
+    background-color: lightpink;">2</div>
+
+
+<div class="side-bar">
+    sidebar
+</div>
+
+<div style="
+   position: absolute;
+   background-color: red;
+   color: white;
+   left: 0;
+   top: 6s0px;
+   z-index: 200;
+
+">absolute</div>
+</body>
+</html>

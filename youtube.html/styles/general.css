@@ -1,0 +1,17 @@
+ p{
+    font-family: Roboto, arial;
+    margin-top: 0;
+    margin-bottom: 0;   
+  }
+
+  .p:hover{
+    cursor:pointer;
+  }
+
+body{
+  margin: 0;
+  padding-left: 96px;
+  padding-top: 30px;
+  padding-right: 24px;
+  background-color: lightgray;
+}   

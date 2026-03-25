@@ -1,0 +1,147 @@
+<!-- lesson 7:-
+image is also a void(self closing element)
+<img src="...">= code for image. src=source
+object-position defines where the image or video is positioned inside its container when it doesn’t fully fit.
+It controls alignment (center, top, bottom, left, right).
+object-fit defines how an image or video is resized to fit inside its container.
+It controls whether the content is stretched, cropped, or scaled.
+
+input element is also void element
+it has many types:-text,checkbox,password,etc
+A placeholder is a hint or temporary text shown inside an input field that guides the user on what to enter.
+and it disapper as soon as we start typing -->
+
+
+<!-- lesson 8:-
+block elemet:-takes up the entire line(eg:-paragraph[until changed])
+inline block element:- takes up as much space as needed
+inline element:-appears  within a line of texxt
+display tag is used to switch between these elements
+
+display:inline-block; =code -->
+
+<!-- lesson-9:- 
+the div(divison) element
+it is a block element
+it is meant to be a container -->
+
+<!-- lesson 10:-
+nested layout technique:-
+we need to breakout the design into horizontal and vertical layouts
+then we need to divide it in different divisions and act for code accordinglt
+it helps to design nicely.
+loop inside a loop
+horizontal- -----
+side by side(leta huya)
+vertical-||||  sidha -->
+
+<!-- lesson 11:-css grid
+there are someproblem in display:-inlineblock
+the alignment issue
+vertically not align
+
+ways to write css:-
+1. stye element in head tag
+2.seperate css file(most used)
+3.inline styling(less used)
+we can also write a css code in the line known as inline styling
+eg:- <div style="color: brown;"> div 1</div>
+
+coloumn- vertical
+rows-horizontal
+
+code:- <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            ">
+            this 100 px means there will be two coloumn
+            and when we add third div tag isnide this div
+            then it forms a new rows-horizontal
+            one column align perfectly with another column]
+
+
+            one more tag:- 1fr(takes up the remaining free space) 
+
+            and if we add more than 1fr both will take the remaining space equally
+            but if we write the second one as 2fr
+            it will take twice the space as 1fr(kind of ratio ) -->
+
+
+<!-- Lesson 12:- 
+FLEXBOX:-
+Flexbox (Flexible Box Layout) is a CSS layout model used to design one-dimensional layouts 
+(either in a row or a column) that allows elements to align, distribute space, and resize
+ dynamically within a container, even when their sizes are unknown or changing.
+
+
+ in grid we mentioned the width and then the content goes inside that
+ but in flex box it adjust CCORDING TO content
+ IF WE ADd more content it will adjust automatically 
+ thATS why its called flexbox
+ it also maintain alignment
+
+ just like fr(grid)=flex:1; is used in the flexbox 
+ 2fr=flex:2;
+
+ grid=rigid layout
+ flex=flexible layout
+ 
+ justify-content is used to align the content.
+ space between is used to distribute elementequally within the whole  box and  
+ with equal spacing
+ 
+
+ while using flex:1
+ if we want to stop tp stretch the element more
+ we can use max-width property -->
+
+
+ <!-- lesson 13:-
+ Nested Flexbox:
+ if we create a division inside a division
+ make first div a flexboc, it will not affect the content under the second div
+ so we will make the nested div a flexbox
+ and that is called a nested flexbox -->
+
+
+ <!-- lesson 14:--
+ css position:- 
+ used to fix position of a object like header or sidebar
+ you can adjust the position from left right top bottom
+ code:- 
+ position:fixed
+ top:,vottom:,left:right -->
+
+ <!-- lesson 15:--
+ z-index is used to control the vertical stacking order of positioned elements
+(i.e., which element appears in front or behind another)
+
+
+🔵 position: fixed
+
+Definition:
+position: fixed places an element relative to the browser screen (viewport).
+
+In simple words:
+👉 It stays fixed on the screen and does not move when you scroll.
+
+🔴 position: absolute
+
+Definition:
+position: absolute places an element relative to its nearest positioned parent.
+If no parent is positioned, it is placed relative to the page (body).
+
+In simple words:
+👉 It moves inside another element and scrolls with the page.
+
+
+if we put a position: absolute div inside a position: fixed div,
+the absolute div is positioned relative to the fixed div, not the page. -->
+
+
+lesson 16:--
+final touch to project
+
+
+
+

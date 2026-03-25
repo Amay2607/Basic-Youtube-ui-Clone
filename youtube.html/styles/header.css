@@ -1,0 +1,199 @@
+
+
+    .header{
+        height: 60px;
+        display: flex;
+        flex-direction:row  ;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        background-color: white;
+        z-index: 100;  
+        border-bottom-width:1PX ;
+        border-bottom-style:solid ;
+        border-bottom-color: rgb(244,244,244);
+    }
+
+    .left-sec{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-logo{
+        height: 25px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .logo-logo{
+        height: 20px;
+    }
+
+    .middle-sec{
+        display: flex;
+        flex: 1;
+        margin-left: 70px;
+        margin-right: 35px;
+        max-width: 600px;
+        align-items: center;
+    }
+
+    .search{
+        font-size: 15px;
+        color: black;
+        display: block;
+        flex: 1;
+        height: 36px;
+        width: 0;
+        font-size: 16px;
+        background-color: rgb(240, 240, 240);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        border-radius: 2px;
+        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .search::placeholder{
+        font-family: Roboto,arial;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .search-button{
+        height: 40px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(240, 240, 220);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        border-radius: 2px;
+        margin-left: -1px;
+        margin-right: 10px;
+        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+
+    }
+
+    .search-button,
+    .vsearch-button,
+    .upl-img-con,
+    .app-img-con,
+    .notif-icon-container
+    {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .search-button .tooltip,
+    .vsearch-button .tooltip,
+    .upl-img-con .tooltip,
+    .app-img-con .tooltip,
+    .notif-icon-container .tooltip{
+        position: absolute;
+        background-color: gray;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 2px;
+        font-size: 12px;
+        bottom: -30px;
+        opacity: 0;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+
+    .search-button:hover .tooltip,
+    .vsearch-button:hover .tooltip,
+    .upl-img-con:hover .tooltip,
+    .app-img-con:hover .tooltip,
+    .notif-icon-container:hover .tooltip{
+        opacity: 1;
+    }
+
+    .search-img{
+        height: 25px;
+        width: auto;
+        object-fit: contain;
+        padding-left: 10px;
+    }
+
+    .vsearch-button{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        border-radius: 20px;
+        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.25);
+       
+    }
+    
+
+     .voice-search{
+        height: 25px;
+        width: auto;
+        object-fit: contain;
+        
+
+     }
+
+    .right-sec{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+     
+    .upload-img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .apps-img{
+        height: 30px;
+        width: 30px;
+    }
+
+
+    .notification-img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .notif-icon-container{
+        position: relative;
+    }
+
+    .notif-no{
+        position: absolute;
+        top: -3px;
+        right: -2px;
+        background-color: red;
+        color: white;
+        border-radius: 16px;
+        font-family: roboto,arial;
+        font-size: 10px;
+        padding: 2px 6px
+    }
+
+
+    .channel-img{
+        height: 30px;
+        width: 30px;
+    }
+
+    
+    
